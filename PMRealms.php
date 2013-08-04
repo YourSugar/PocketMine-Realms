@@ -14,7 +14,7 @@ class PMRealms implements Plugin{
 	private $api, $server, $config;
 	public function __construct(ServerAPI $api, $server = false){
 		$this->api = $api;
-		$this->server = ServerAPI::request();
+		$this->server= ServerAPI::request();
 	}
 	
 	public function init(){
